@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[4   15]]>
+    </line>
+    <line>
+      <![CDATA[Thank you for registering. You may now sign-in using the user name and password you've just entered.]]>
+    </line>
+    <line>
+      <![CDATA[Register Unsuccess]]>
+    </line>
+    <line>
+      <![CDATA[Thank you for registering. You may now sign-in using the user name and password you've just entered.]]>
+    </line>
+    <line>
+      <![CDATA[Register Unsuccess]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42378" started-at="2020-01-10T10:56:13 IST" finished-at="2020-01-10T10:56:55 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42378" started-at="2020-01-10T10:56:13 IST" finished-at="2020-01-10T10:56:55 IST">
+      <class name="com.DriverFactory.DataDriven1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.DriverFactory.DataDriven1@3224f60b]" name="setUp" is-config="true" duration-ms="3050" started-at="2020-01-10T10:56:13 IST" finished-at="2020-01-10T10:56:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegister()[pri:0, instance:com.DriverFactory.DataDriven1@3224f60b]" name="verifyRegister" duration-ms="39211" started-at="2020-01-10T10:56:16 IST" finished-at="2020-01-10T10:56:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[4   15]]>
+            </line>
+            <line>
+              <![CDATA[Thank you for registering. You may now sign-in using the user name and password you've just entered.]]>
+            </line>
+            <line>
+              <![CDATA[Register Unsuccess]]>
+            </line>
+            <line>
+              <![CDATA[Thank you for registering. You may now sign-in using the user name and password you've just entered.]]>
+            </line>
+            <line>
+              <![CDATA[Register Unsuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegister -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DriverFactory.DataDriven1@3224f60b]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-01-10T10:56:55 IST" finished-at="2020-01-10T10:56:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DriverFactory.DataDriven1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
